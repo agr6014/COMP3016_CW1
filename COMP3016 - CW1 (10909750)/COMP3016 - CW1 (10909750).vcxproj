@@ -125,6 +125,11 @@
   <ItemGroup>
     <ClCompile Include="COMP3016 - CW1 (10909750).cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Obstacles.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
