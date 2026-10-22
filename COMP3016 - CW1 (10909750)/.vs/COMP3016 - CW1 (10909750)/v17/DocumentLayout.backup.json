@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EBBDC2B7-2F92-46FE-AB15-FA0354533C9A}|COMP3016 - CW1 (10909750).vcxproj|C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\COMP3016 - CW1 (10909750).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EBBDC2B7-2F92-46FE-AB15-FA0354533C9A}|COMP3016 - CW1 (10909750).vcxproj|solutionrelative:COMP3016 - CW1 (10909750).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EBBDC2B7-2F92-46FE-AB15-FA0354533C9A}|COMP3016 - CW1 (10909750).vcxproj|C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EBBDC2B7-2F92-46FE-AB15-FA0354533C9A}|COMP3016 - CW1 (10909750).vcxproj|solutionrelative:Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EBBDC2B7-2F92-46FE-AB15-FA0354533C9A}|COMP3016 - CW1 (10909750).vcxproj|C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EBBDC2B7-2F92-46FE-AB15-FA0354533C9A}|COMP3016 - CW1 (10909750).vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBBDC2B7-2F92-46FE-AB15-FA0354533C9A}|COMP3016 - CW1 (10909750).vcxproj|C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\COMP3016 - CW1 (10909750).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EBBDC2B7-2F92-46FE-AB15-FA0354533C9A}|COMP3016 - CW1 (10909750).vcxproj|solutionrelative:COMP3016 - CW1 (10909750).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Obstacles.h",
               "DocumentMoniker": "C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\Obstacles.h",
               "RelativeDocumentMoniker": "Obstacles.h",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\Player.h",
               "RelativeDocumentMoniker": "Player.h",
@@ -55,28 +55,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Window.h",
               "DocumentMoniker": "C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\Window.h",
               "RelativeDocumentMoniker": "Window.h",
-              "ToolTip": "C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\Window.h*",
-              "RelativeToolTip": "Window.h*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\Window.h",
+              "RelativeToolTip": "Window.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-10-15T10:35:54.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "COMP3016 - CW1 (10909750).cpp",
               "DocumentMoniker": "C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\COMP3016 - CW1 (10909750).cpp",
               "RelativeDocumentMoniker": "COMP3016 - CW1 (10909750).cpp",
-              "ToolTip": "C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\COMP3016 - CW1 (10909750).cpp",
-              "RelativeToolTip": "COMP3016 - CW1 (10909750).cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\agr60\\Documents\\Github\\COMP3016_CW1\\COMP3016 - CW1 (10909750)\\COMP3016 - CW1 (10909750).cpp*",
+              "RelativeToolTip": "COMP3016 - CW1 (10909750).cpp*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-15T10:03:49.255Z"
+              "WhenOpened": "2026-10-15T10:03:49.255Z",
+              "EditorCaption": ""
             }
           ]
         }
