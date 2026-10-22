@@ -13,9 +13,11 @@
 
 int main() {
 	Window window;
-	window.window_creation();
+	window.window_creation(1200, 800);
 	window.window_changes();
-	window.window_destroy();
+	window.get_window();
+	window.get_renderer();
+	window.window_destroy(window.get_renderer(), window.get_window());
 	return 0;
 }
 

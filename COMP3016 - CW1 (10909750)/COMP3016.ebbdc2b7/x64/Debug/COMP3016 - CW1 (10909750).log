@@ -1,7 +1,2 @@
 ﻿  COMP3016 - CW1 (10909750).cpp
-C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\COMP3016 - CW1 (10909750).cpp(18,9): error C2660: 'Window::window_destroy': function does not take 0 arguments
-      C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Window.h(43,7):
-      see declaration of 'Window::window_destroy'
-      C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\COMP3016 - CW1 (10909750).cpp(18,9):
-      while trying to match the argument list '()'
-  
+  COMP3016 - CW1 (10909750).vcxproj -> C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\x64\Debug\COMP3016 - CW1 (10909750).exe
