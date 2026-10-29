@@ -11,8 +11,7 @@
 // Function to handle events
 // Function to destroy the window and renderer when completing the game
 
-class Window
-{
+class Window {
 public:
 	std::pair<SDL_Window*, SDL_Renderer*> window_creation(int x, int y) {
 		SDL_Init(SDL_INIT_VIDEO);

@@ -129,6 +129,7 @@
     <ClCompile Include="COMP3016 - CW1 (10909750).cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Grid.h" />
     <ClInclude Include="Obstacles.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Window.h" />

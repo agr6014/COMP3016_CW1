@@ -1,2 +1,4 @@
 ﻿  COMP3016 - CW1 (10909750).cpp
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\COMP3016 - CW1 (10909750).cpp(19,9): warning C4101: 'player': unreferenced local variable
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\COMP3016 - CW1 (10909750).cpp(18,12): warning C4101: 'obstacles': unreferenced local variable
   COMP3016 - CW1 (10909750).vcxproj -> C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\x64\Debug\COMP3016 - CW1 (10909750).exe

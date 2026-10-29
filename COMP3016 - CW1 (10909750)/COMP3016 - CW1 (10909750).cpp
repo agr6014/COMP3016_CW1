@@ -10,10 +10,15 @@
 
 #include <iostream>
 #include "Window.h"
+#include "Player.h"
+#include "Obstacles.h"
 
 int main() {
 	Window window;
-	window.window_creation(1200, 800);
+	Obstacles obstacles;
+	Player player;
+
+	window.window_creation(800, 600);
 	window.window_changes();
 	window.get_window();
 	window.get_renderer();
