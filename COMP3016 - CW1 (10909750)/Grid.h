@@ -8,15 +8,44 @@
 class Grid {
 public:
 	void grid_create() {
-		cells.resize(columns * rows, std::vector<int>(rows, 0));
+		cells.resize(rows, std::vector<int>(columns, 0));
 
 		for (int i = 0; i < rows; i = i + 1) {
 			for (int j = 0; j < columns; j = j + 1) {
-				
+				if (j == 0 || j == columns - 1 || i == 0 || i == rows - 1) {
+					cells[i][j] = 1;
+				}
 			}
 		}
+		// In theoryu this should set the outer walls to 1 (being obstacles)
+
 	};
-	
+	// This function will create the grid, next is to make the getters and setters
+	// Which are annoying :(
+
+	int get_columns() {
+		return columns;
+	};
+
+	int get_rows() {
+		return rows;
+	};
+	// These will get the rows and columns
+
+	int get_cell(int row, int column) {
+		return cells[row][column];
+	};
+
+	int get_cell_size() {
+		return cell_size;
+	};
+	// This will get the size of a cell
+
+	void set_cell(int row, int column, int value) {
+		cells[row][column] = value;
+	};
+	// This is the setter so that the obstacles and goal can be placed
+
 private:
 	int columns = 10;
 	int rows = 10;
