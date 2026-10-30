@@ -47,8 +47,8 @@ public:
 	// This is the setter so that the obstacles and goal can be placed
 
 private:
-	int columns = 10;
-	int rows = 10;
+	int columns = 20;
+	int rows = 15;
 	// This sets up how many rows and columns for the grid
 
 	std::vector<std::vector<int>> cells;
