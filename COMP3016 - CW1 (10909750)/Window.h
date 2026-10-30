@@ -17,10 +17,10 @@ public:
 		SDL_Init(SDL_INIT_VIDEO);
 		// Initialize SDL with video support
 
-		SDL_Window* window = SDL_CreateWindow("Window", x, y, 0);
+		window = SDL_CreateWindow("Window", x, y, 0);
 		// Create a window with the title "Window" and dimensions 600x400
 
-		SDL_Renderer* renderer = SDL_CreateRenderer(window, nullptr);
+		renderer = SDL_CreateRenderer(window, nullptr);
 		// Create a renderer for the window
 
 		SDL_SetRenderDrawColor(renderer, 0, 217, 255, 255);
