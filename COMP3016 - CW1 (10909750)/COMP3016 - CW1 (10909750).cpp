@@ -12,6 +12,7 @@
 #include "Window.h"
 #include "Player.h"
 #include "Obstacles.h"
+#include "Grid.h"
 
 int main() {
 	Window window;
