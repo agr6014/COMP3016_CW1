@@ -60,6 +60,7 @@ int main() {
 
 			if (player.win_condition(grid) == true) {
 				std::cout << "You win!" << std::endl;
+				running = false;
 				window.window_changes();
 
 			}
