@@ -23,5 +23,28 @@ C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Obstacles
 C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Obstacles.h(37,7): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'COMP3016%20-%20CW1%20(10909750).cpp')
   
-C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\COMP3016 - CW1 (10909750).cpp(20,9): warning C4101: 'player': unreferenced local variable
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Player.h(37,13): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+  (compiling source file 'COMP3016%20-%20CW1%20(10909750).cpp')
+  
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Player.h(37,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'COMP3016%20-%20CW1%20(10909750).cpp')
+  
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Player.h(38,13): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+  (compiling source file 'COMP3016%20-%20CW1%20(10909750).cpp')
+  
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Player.h(38,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'COMP3016%20-%20CW1%20(10909750).cpp')
+  
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Player.h(39,4): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+  (compiling source file 'COMP3016%20-%20CW1%20(10909750).cpp')
+  
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Player.h(39,4): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'COMP3016%20-%20CW1%20(10909750).cpp')
+  
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Player.h(40,4): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+  (compiling source file 'COMP3016%20-%20CW1%20(10909750).cpp')
+  
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Player.h(40,4): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'COMP3016%20-%20CW1%20(10909750).cpp')
+  
   COMP3016 - CW1 (10909750).vcxproj -> C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\x64\Debug\COMP3016 - CW1 (10909750).exe

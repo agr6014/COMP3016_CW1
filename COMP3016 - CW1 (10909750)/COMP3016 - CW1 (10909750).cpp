@@ -39,6 +39,25 @@ int main() {
 			if (event.type == SDL_EVENT_QUIT) {
 			running = false;
 		    }
+
+			if (event.key.key == SDLK_UP) {
+				player.movement(grid, 0, -1);
+			}
+			// This basically just means if possible, it will stay in the same column, but go up a row
+
+			if (event.key.key == SDLK_DOWN) {
+				player.movement(grid, 0, 1);
+			}
+
+			if (event.key.key == SDLK_LEFT) {
+				player.movement(grid, -1, 0);
+			}
+
+			if (event.key.key == SDLK_RIGHT) {
+				player.movement(grid, 1, 0);
+			}
+			// These if statements should allow for movement and collision detection 
+
 		}
 
 		SDL_SetRenderDrawColor(renderer, 0, 217, 255, 255);
@@ -46,6 +65,9 @@ int main() {
 		SDL_RenderClear(renderer);
 
 		obstacles.render_obstacles(renderer, grid);
+
+		player.render_player(renderer, grid);
+		// This will render the player
 
 		// SDL_FRect test = { 100, 100, 50, 50 };
 		// SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
