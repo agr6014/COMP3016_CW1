@@ -45,6 +45,16 @@ public:
 
 	}
 
+	bool win_condition(Grid& grid) {
+		if (grid.get_cell(player_y, player_x) == 2) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	// This should give "true" if the player collides with the goal
+
 
 private:
 	int player_y = 1;

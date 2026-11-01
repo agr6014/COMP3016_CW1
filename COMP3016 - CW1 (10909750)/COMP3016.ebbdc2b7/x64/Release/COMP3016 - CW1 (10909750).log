@@ -1,0 +1,4 @@
+﻿  COMP3016 - CW1 (10909750).cpp
+C:\Users\agr60\Documents\Github\COMP3016_CW1\COMP3016 - CW1 (10909750)\Window.h(5,10): error C1083: Cannot open include file: 'SDL3/SDL.h': No such file or directory
+  (compiling source file 'COMP3016%20-%20CW1%20(10909750).cpp')
+  

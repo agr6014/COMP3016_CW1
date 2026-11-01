@@ -36,10 +36,10 @@ public:
 	};
 	// ~Window();
 
-	void window_changes() {
-		SDL_Delay(5000);
+	// void window_changes() {
+		//SDL_Delay(5000);
 		// Wait for 5 seconds (5000 milliseconds)
-	};
+	// };
 
 	void window_destroy(SDL_Renderer* renderer, SDL_Window* window) {
 

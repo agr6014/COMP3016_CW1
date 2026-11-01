@@ -58,6 +58,11 @@ int main() {
 			}
 			// These if statements should allow for movement and collision detection 
 
+			if (player.win_condition(grid) == true) {
+				std::cout << "You win!" << std::endl;
+
+			}
+
 		}
 
 		SDL_SetRenderDrawColor(renderer, 0, 217, 255, 255);
@@ -79,7 +84,6 @@ int main() {
 		
 	}
 
-	window.window_changes();
 	window.get_window();
 	window.get_renderer();
 
