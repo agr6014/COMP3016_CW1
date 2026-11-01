@@ -15,9 +15,24 @@ public:
 
 	void create_obstacles(Grid& grid) {
 		
-		grid.set_cell(2, 2, 1); 
-		grid.set_cell(3, 4, 1); 
-		grid.set_cell(5, 5, 1); 
+		grid.set_cell(1, 10, 1); 
+		grid.set_cell(2, 1, 1);
+		grid.set_cell(10, 9, 1); 
+		grid.set_cell(11, 18, 1);
+		grid.set_cell(13, 15, 1);
+		grid.set_cell(11, 8, 1);
+		grid.set_cell(12, 11, 1);
+		grid.set_cell(13, 12, 1);
+		grid.set_cell(14, 13, 1);
+		grid.set_cell(7, 6, 1);
+		grid.set_cell(8, 7, 1);
+		grid.set_cell(9, 8, 1);
+		grid.set_cell(5, 4, 1);
+		grid.set_cell(3, 8, 1);
+		grid.set_cell(13, 8, 1);
+		grid.set_cell(8, 13, 1);
+		grid.set_cell(9, 14, 1);
+		grid.set_cell(13, 18, 2);
 		
 	};
 	// This will set where obstacles are and their values
@@ -47,5 +62,23 @@ public:
 		}
 	}
 	// This will render all of the cells with the value of 1 as a different colour
+
+	void render_goal(SDL_Renderer* renderer, Grid& grid) {
+		for (int i = 0; i < grid.get_rows(); i = i + 1) {
+			for (int j = 0; j < grid.get_columns(); j = j + 1) {
+				if (grid.get_cell(i, j) == 2) {
+					int cell_size = grid.get_cell_size();
+					SDL_FRect rect_goal = {
+						j * cell_size,
+						i * cell_size,
+						cell_size,
+						cell_size
+					};
+					SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
+					SDL_RenderFillRect(renderer, &rect_goal);
+				}
+			}
+		}
+	}
 
 };

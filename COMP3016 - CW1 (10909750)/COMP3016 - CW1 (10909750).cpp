@@ -65,6 +65,7 @@ int main() {
 		SDL_RenderClear(renderer);
 
 		obstacles.render_obstacles(renderer, grid);
+		obstacles.render_goal(renderer, grid);
 
 		player.render_player(renderer, grid);
 		// This will render the player
