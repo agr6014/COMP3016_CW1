@@ -18,5 +18,13 @@ As you can see from the AI log, I have used AI in order to help explain concepts
 
 [UML DIAGRAM.pdf](https://github.com/user-attachments/files/34282300/UML.DIAGRAM.pdf)
 
-The provided UML diagram above, shows how the main C++ file connects to the header files, and how the header files connect to one another.
+The provided UML diagram above, shows how the main C++ file connects to the header files, and how the header files connect to one another. As you can see in the diagram, both "Obstacle.h" and "Player.h" use features from the "Grid.h" file and "Grid" class. This is due to how the grid creation function uses the "rows", "columns", "cell" and "cell_size" variables to determine how big the grid is, how many cells are made, and how big each cell is. This information is useful to the player and obstacle functions due to how it allows for cell movement, collisions with obstacles by checking if the next cell is empty, and how big to render the player and obstacles.
 
+[Test log.pdf](https://github.com/user-attachments/files/34282862/Test.log.pdf)
+[Game evidence.pdf](https://github.com/user-attachments/files/34282871/Game.evidence.pdf)
+
+Above are both the testing log, where I tested if the game functioned as intended, and the evidence proving that it runs and a message appears in the console when you have won. Due to the nature of my game, the tests were primarily focused on how the player moves and if collisions would stop the player from moving. Whilst testing, I concluded that the obstacles would block the player from moving, allowing them to make another move, but also I tested how the game would handle unrecognized keyboard inputs. Luckily when a key that wasn't assigned was pressed, nothing would happen, meaning that the game runs as intended.  
+
+After completing this project, I feel I have improved my understanding and ability to use C++ effectively, and improved my ability to create functions to detect collisions. Before this coursework, I was unfamiliar with SDL3, however I now understand how the library works and how to build a better game loop. I am proud of my progress and development during this project and feel more confident that I can use what I have learnt to build better games in the future. Despite this, if I were to attempt this project again, I would aim to add sound effects to when the player collides with an obstacle and goal, an ambient soundtrack that plays while the game is running, and a start and end screen. This is due to how i believe that these improvements would allow for better immersion and an improved sense of enjoyment from the game.
+
+Link to the Github: https://github.com/agr6014/COMP3016_CW1 
