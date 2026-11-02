@@ -27,4 +27,6 @@ Above are both the testing log, where I tested if the game functioned as intende
 
 After completing this project, I feel I have improved my understanding and ability to use C++ effectively, and improved my ability to create functions to detect collisions. Before this coursework, I was unfamiliar with SDL3, however I now understand how the library works and how to build a better game loop. I am proud of my progress and development during this project and feel more confident that I can use what I have learnt to build better games in the future. Despite this, if I were to attempt this project again, I would aim to add sound effects to when the player collides with an obstacle and goal, an ambient soundtrack that plays while the game is running, and a start and end screen. This is due to how i believe that these improvements would allow for better immersion and an improved sense of enjoyment from the game.
 
+In order to run the project, click on the file, then go to x64 and click "Debug", then you will find the executable file and then the game will start after clicking on it.
+
 Link to the Github: https://github.com/agr6014/COMP3016_CW1 
