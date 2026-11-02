@@ -14,4 +14,7 @@ In terms of dependencies, I have used SDL3 (as instructed), so that I could hand
 
 [Updated AI Log.pdf](https://github.com/user-attachments/files/34281888/Updated.AI.Log.pdf)
 
-As you can see from the AI log, I have used AI in order to help explain concepts that I was struggling to understand and support me in debugging my code. The grid logic used in "Grid.h" and the moving of the SDL3 window generation to the header file "Window.h", caused issues and I asked AI to aid me by explaining what is needed and how it can be implement, and why my window is no longer being created. 
+As you can see from the AI log, I have used AI in order to help explain concepts that I was struggling to understand and support me in debugging my code. The grid logic used in "Grid.h" and the moving of the SDL3 window generation to the header file "Window.h", caused issues and I asked AI to aid me by explaining what is needed and how it can be implement, and why my window is no longer being created. By using AI for code explanation and debugging support, I have been able to quickly fix issues and errors that have appeared during the development of my project. 
+
+
+
